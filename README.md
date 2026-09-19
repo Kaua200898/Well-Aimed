@@ -212,14 +212,15 @@ Para facilitar a organização e a identificação rápida do tipo de cada asset
  
 | Tipo de Asset          | Prefixo   | Exemplo                |
 |-------------------------|-----------|-------------------------|
-| AudioClip                | `Au_`     | `Au_Jump`               |
+| AudioClip                | `AU_`     | `Au_Jump`               |
 | Prefab                    | `P_`      | `P_Player`               |
 | Mesh                      | `M_`      | `M_Rock`                 |
 | Texture                   | `T_`      | `T_GrassAlbedo`          |
-| AnimationClip             | `Anim_`   | `Anim_Run`               |
+| AnimationClip             | `ANIM_`   | `Anim_Run`               |
 | AnimationController       | `AC_`     | `AC_Player`              |
-| Material                  | `Mat_`    | `Mat_Metal`              |
-| PhysicsMaterial           | `Phy_`    | `Phy_Ice`                |
+| Material                  | `MAT_`    | `Mat_Metal`              |
+| PhysicsMaterial           | `PHY_`    | `Phy_Ice`                |
+| Scenes           | `SCN_`    | `SCN_Metro`                |
  
 O nome após o prefixo deve seguir PascalCase e ser descritivo o suficiente para identificar o asset sem precisar abri-lo (ex.: `T_GrassAlbedo`, `Anim_PlayerRun`, `Mat_MetalRusty`).
  
